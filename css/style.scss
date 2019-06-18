@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    // background: url('../Images/morning.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#time {
+    font-size: 8rem;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+.intro {
+    display: flex;
+}
+
+#small-text {
+    font-size: 4rem;
+}
+
+button {
+    background: #f9ca24;
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.hide {
+    display: none;
+}
+
+
+@media screen and (max-width: 568px) {
+    #time {
+        font-size: 6rem;
+    }
+}
